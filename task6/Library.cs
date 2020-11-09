@@ -8,6 +8,7 @@ namespace task6
         private Book[] listOfBook;
         private int totalBook;
         private Student[] libMembers;
+        private Account libAccount;
 
 
         public String LibName { get { return libName; } set { libName = value; } }
@@ -15,6 +16,7 @@ namespace task6
         public Book[] ListOfBook { get { return listOfBook; } set { listOfBook = value; } }
         public int TotalBook { get { return totalBook; } set { totalBook = value; } }
         public Student[] LibMembers { get { return libMembers; } set { libMembers = value; } }
+        public Account LibAccount { get => libAccount; set => libAccount = value; }
 
         public Library()
         {
